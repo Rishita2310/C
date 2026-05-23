@@ -42,3 +42,23 @@
 //     printf("Value of e: %lf\n", e);
 //     return 0;
 // }
+
+
+
+//Updation of variables
+#include <stdio.h>
+int main(){
+    int x=5;
+    printf("Initial value of x: %d\n", x);
+    x=10; // updating the value of x
+    printf("Updated value of x: %d\n", x);
+    x=x+100;
+    printf("Value of x after adding 100: %d\n", x);
+    x=x-105;
+    printf("Value of x after subtracting 105: %d\n", x);
+    x=x*2;
+    printf("Value of x after multiplying by 2: %d\n", x);
+    x=x/2;
+    printf("Value of x after dividing by 2: %d\n", x);
+    return 0;
+}
